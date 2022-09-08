@@ -1,0 +1,32 @@
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>
+<script src="valid.js"></script>  
+</head> 
+<link rel="stylesheet" href="5b.css"> 
+<body bgcolor="Lightyellow">  
+<br>  
+<br>  
+<form action="{{ url_for("gfg")}}" method="post">   
+  
+<label> Firstname: </label>         
+<input id="first_name" type="text" name="FirstName" maxlength="20"> <br> <br>  
+<label> Middlename: </label>     
+<input id="middle_name" type="text" name="MiddleName" maxlength="20"> <br> <br>  
+<label> Lastname: </label>         
+<input id="last_name" type="text" name="LastName" maxlength="20"> <br> <br>  
+  
+
+Email:  
+<input id="email" type="text" name="EmailId" style="padding: 1px 121px;" required> <br>    
+<br> <br>  
+Car Number:
+<input id="car_number" type="text" name="car_number" maxlength="10" required>Eg: XY05AB0000<br>
+<br> <br>
+
+<button class="btn" type="submit" name="form" onclick="check()">Submit</button> 
+</form>  
+</body>  
+</html>  

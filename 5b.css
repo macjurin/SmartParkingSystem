@@ -1,0 +1,36 @@
+body
+{
+        background: linear-gradient(to top, #003366 20%, #ffffcc 100%);
+}
+form { 
+    padding: 33px;
+    border: 2px solid black;
+    margin: 0 auto; 
+    width:750px;
+    border-radius: 23px;
+    background: linear-gradient(to top left, #33ccff 20%, #ff6699 100%);
+    font-size: 20px;
+    }
+    form input,select
+    {
+        border: 2px solid black;
+        padding: 13px;
+        border-radius: 13px;
+        outline: none;
+    }
+button{
+    font-size: 19px;
+    border: 2px solid black;
+    padding: 7px;
+    width: 350px;
+    border-radius: 13px;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 2px auto;
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+}
